@@ -21,24 +21,24 @@ function Nav() {
         </div>
       </div>
       <div className=" h-[40px] pt-2 gap-8 flex flex-row justify-centre">
-        <Link href={"Error404"}>
+        <Link href="./Error404.js">
           <p>Home</p>
         </Link>
-        <Link href={"Error404"}>
+        <Link href="./Error404.js">
           <p className="text-xs opacity-45 pt-[6px]">About Us</p>
         </Link>
-        <Link href={"Error404"}>
+        <Link href="./Error404.js">
           <p className="text-xs opacity-45 pt-[6px]">Courses</p>
         </Link>
-        <Link href={"Error404"}>
+        <Link href="./Error404.js">
           <p className="text-xs opacity-45 pt-[6px]">FAQ</p>
         </Link>
-        <Link href={"Error404"}>
+        <Link href="./Error404.js">
           <p className="text-xs opacity-45 pt-[6px]">Blog</p>
         </Link>
       </div>
       <div className="w-[221px] h-[48px] gap-4 flex flex-row">
-        <Link href={"Error404"}>
+        <Link href="./Error404.js">
           <button
             className="w-[117px] text-[12px] h-[48px] pt-3 pr-6 pb-3 pl-6 
          rounded-[8px] border border-[#184CD1] 
@@ -48,7 +48,7 @@ function Nav() {
           </button>
         </Link>
 
-        <Link href={"Error404"}>
+        <Link href="./Error404.js">
           <button className="w-[117px] text-lg h-[48px] pt-3 pr-6 pb-3 pl-6 rounded-[8px]  border-white border-[1px] text-white bg-[#184CD1] hover:bg-[#1A64F7]">
             Register
           </button>

@@ -4,6 +4,7 @@ import Adminfooter from "./components/Adminfooter";
 import Footer from "./components/Footer";
 import Container from "./components/Container";
 import Link from "next/link";
+import Error404 from "./Error404";
 
 export default function Home() {
   return (
@@ -24,13 +25,13 @@ export default function Home() {
                 <br /> for in-demand tech jobs
               </p>
               <div className="lg:flex lg:gap-6 lg:pt-[24px] flex gap-8 pt-[16px]">
-                <Link href={"Error404"}>
+                <Link href="./Error404.js">
                   <button className="lg:bg-[#66d440] lg:rounded-lg lg:text-[#000000] lg:text-sm lg:w-[157px] lg:h-[56px] lg:p-4 lg:pl-8 lg:pr-8 lg:border border border-[#66d440] lg:border-solid bg-[#66d440] rounded-lg shadow-none text-[#000000] text-sm py-4 px-8">
                     Start Today
                   </button>
                 </Link>
 
-                <Link href={"Error404"}>
+                <Link href="./Error404.js">
                   <button className="bg-[#ffffff] rounded-lg shadow-none text-[#66d440] text-sm lg:w-[157px] lg:h-[56px] py-4 px-8 border border-solid ">
                     Learn More
                   </button>
