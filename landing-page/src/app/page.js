@@ -10,7 +10,7 @@ export default function Home() {
     <div className="App">
       <Nav />
       <div className="lg: bg-[url('/images/hero_bg.png')] h-[872px] bg-cover bg-center  lg:w-full flex lg:flex lg:flex-row lg:justify-between ">
-        <div className="lg:pl-[128px] pt-[48px] gap-[180px] h-full flex flex-col lg:flex-row justify-between">
+        <div className="lg:pl-[128px] pt-[48px] gap-[200px] h-full flex flex-col lg:flex-row justify-between">
           <div className="lg:flex flex-col px-4">
             <div className="lg:pt-[128px] lg:text-white lg:h-[690px]   pt-[100px] text-white h-[550px]">
               <p>IMMERSIVE LEARNING</p>
