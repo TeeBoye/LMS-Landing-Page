@@ -1,6 +1,4 @@
 import React from "react";
-import Link from "next/link";
-import Error404 from "../Error404";
 
 function Nav() {
   return (
@@ -21,38 +19,25 @@ function Nav() {
         </div>
       </div>
       <div className=" h-[40px] pt-2 gap-8 flex flex-row justify-centre">
-        <Link href="./Error404.js">
-          <p>Home</p>
-        </Link>
-        <Link href="./Error404.js">
-          <p className="text-xs opacity-45 pt-[6px]">About Us</p>
-        </Link>
-        <Link href="./Error404.js">
-          <p className="text-xs opacity-45 pt-[6px]">Courses</p>
-        </Link>
-        <Link href="./Error404.js">
-          <p className="text-xs opacity-45 pt-[6px]">FAQ</p>
-        </Link>
-        <Link href="./Error404.js">
-          <p className="text-xs opacity-45 pt-[6px]">Blog</p>
-        </Link>
+        <p>Home</p>
+        <p className="text-xs opacity-45 pt-[6px]">About Us</p>
+        <p className="text-xs opacity-45 pt-[6px]">Courses</p>
+        <p className="text-xs opacity-45 pt-[6px]">FAQ</p>
+
+        <p className="text-xs opacity-45 pt-[6px]">Blog</p>
       </div>
       <div className="w-[221px] h-[48px] gap-4 flex flex-row">
-        <Link href="./Error404.js">
-          <button
-            className="w-[117px] text-[12px] h-[48px] pt-3 pr-6 pb-3 pl-6 
+        <button
+          className="w-[117px] text-[12px] h-[48px] pt-3 pr-6 pb-3 pl-6 
          rounded-[8px] border border-[#184CD1] 
          text-white bg-[#184CD1] hover:bg-[#1A64F7]"
-          >
-            Sign In
-          </button>
-        </Link>
+        >
+          Sign In
+        </button>
 
-        <Link href="./Error404.js">
-          <button className="w-[117px] text-lg h-[48px] pt-3 pr-6 pb-3 pl-6 rounded-[8px]  border-white border-[1px] text-white bg-[#184CD1] hover:bg-[#1A64F7]">
-            Register
-          </button>
-        </Link>
+        <button className="w-[117px] text-lg h-[48px] pt-3 pr-6 pb-3 pl-6 rounded-[8px]  border-white border-[1px] text-white bg-[#184CD1] hover:bg-[#1A64F7]">
+          Register
+        </button>
       </div>
     </div>
   );
