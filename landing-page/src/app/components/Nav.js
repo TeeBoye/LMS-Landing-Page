@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+import Error404 from "../Error404";
 
 function Nav() {
   return (
@@ -19,25 +21,39 @@ function Nav() {
         </div>
       </div>
       <div className=" h-[40px] pt-2 gap-8 flex flex-row justify-centre">
-        <p>Home</p>
-        <p className="text-xs opacity-45 pt-[6px]">About Us</p>
-        <p className="text-xs opacity-45 pt-[6px]">Courses</p>
-        <p className="text-xs opacity-45 pt-[6px]">FAQ</p>
+        <Link href="../Error404">
+          <p>Home</p>
+        </Link>
 
-        <p className="text-xs opacity-45 pt-[6px]">Blog</p>
+        <Link href="../Error404">
+          <p className="text-xs opacity-45 pt-[6px]">About Us</p>
+        </Link>
+        <Link href="../Error404">
+          <p className="text-xs opacity-45 pt-[6px]">Courses</p>
+        </Link>
+        <Link href="../Error404">
+          <p className="text-xs opacity-45 pt-[6px]">FAQ</p>
+        </Link>
+        <Link href="../Error404">
+          <p className="text-xs opacity-45 pt-[6px]">Blog</p>
+        </Link>
       </div>
       <div className="w-[221px] h-[48px] gap-4 flex flex-row">
-        <button
-          className="w-[117px] text-[12px] h-[48px] pt-3 pr-6 pb-3 pl-6 
+        <Link href="../Error404">
+          <button
+            className="w-[117px] text-[12px] h-[48px] pt-3 pr-6 pb-3 pl-6 
          rounded-[8px] border border-[#184CD1] 
          text-white bg-[#184CD1] hover:bg-[#1A64F7]"
-        >
-          Sign In
-        </button>
+          >
+            Sign In
+          </button>
+        </Link>
 
-        <button className="w-[117px] text-lg h-[48px] pt-3 pr-6 pb-3 pl-6 rounded-[8px]  border-white border-[1px] text-white bg-[#184CD1] hover:bg-[#1A64F7]">
-          Register
-        </button>
+        <Link href="../Error404">
+          <button className="w-[117px] text-lg h-[48px] pt-3 pr-6 pb-3 pl-6 rounded-[8px]  border-white border-[1px] text-white bg-[#184CD1] hover:bg-[#1A64F7]">
+            Register
+          </button>
+        </Link>
       </div>
     </div>
   );
